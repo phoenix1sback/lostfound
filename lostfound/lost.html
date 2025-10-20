@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Lost Item</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Report Lost Item</h2>
+  <form action="insert_lost.php" method="POST">
+    <label>Item Name:</label><input type="text" name="item_name"><br>
+    <label>Description:</label><textarea name="description"></textarea><br>
+    <label>Location:</label><input type="text" name="location"><br>
+    <label>Date Lost:</label><input type="date" name="date_lost"><br>
+    <label>Contact Info:</label><input type="text" name="contact_info"><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

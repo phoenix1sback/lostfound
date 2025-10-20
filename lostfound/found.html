@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Found Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Report a Found Item</h2>
+    <form action="insert_found.php" method="post">
+        <label>Item Name:</label>
+        <input type="text" name="item_name" required><br><br>
+
+        <label>Description:</label>
+        <textarea name="description" required></textarea><br><br>
+
+        <label>Location Found:</label>
+        <input type="text" name="location" required><br><br>
+
+        <label>Date Found:</label>
+        <input type="date" name="date_found" required><br><br>
+
+        <label>Contact Info:</label>
+        <input type="text" name="contact_info" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
